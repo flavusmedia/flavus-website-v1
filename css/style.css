@@ -1229,6 +1229,15 @@ a.site-button{
 
 /*------------------------ 6 Responsive ------------------------*/
 
+@media (min-width: 0px) and (max-width: 576px) {
+    .mt-xs {
+        margin-top: 50px !important;
+    }
+    
+    .services-row-2 {
+        margin-top: 0; !important;
+    }
+}
 
 /*max Width 992px */
 
@@ -1252,6 +1261,14 @@ a.site-button{
     
     .about.type-1 .about-image img{
         margin: 0;
+    }
+    
+    .mt-xs {
+        margin-top: 50px !important;
+    }
+    
+    .services-row-2 {
+        margin-top: 0; !important;
     }
     
 }
@@ -1347,6 +1364,14 @@ a.site-button{
         padding-bottom: 60px;
     }
     
+    .mt-xs {
+        margin-top: 50px !important;
+    }
+    
+    .services-row-2 {
+        margin-top: 0; !important;
+    }
+    
 }
 
 
@@ -1356,6 +1381,7 @@ a.site-button{
  .nav-menu{
         display: block!important;
     }
+    
     
 }
 
@@ -1392,18 +1418,6 @@ a.site-button{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .services-row-2 {
     margin-top: 40px;
 }
@@ -1412,3 +1426,4 @@ a.site-button{
     background-color: none !important;
     box-shadow: none !important;
     transform: scale(1.2)
+}
